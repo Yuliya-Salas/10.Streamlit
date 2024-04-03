@@ -24,7 +24,7 @@ DATE_COLUMN = 'Year'
 
 def load_data():
     df = pd.read_csv(DATA, parse_dates=[DATE_COLUMN], delimiter=',')
-     df[DATE_COLUMN] = df[DATE_COLUMN].dt.strftime('%Y')  # Преобразуем год к строковому формату, пробуем исправить ошибку при развертывании
+    df[DATE_COLUMN] = df[DATE_COLUMN].dt.strftime('%Y')  # Преобразуем год к строковому формату, пробуем исправить ошибку при развертывании
     return df
 
 df = load_data()
