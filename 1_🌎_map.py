@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import json
-from caching import cache
 
 st.set_page_config(
     page_title='Bananas',
