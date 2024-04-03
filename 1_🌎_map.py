@@ -22,6 +22,7 @@ st.write('''Как видно из табличных данных и на ка�
 DATA = 'banana-production.csv'
 DATE_COLUMN = 'Year'
 
+@st.cache_resource
 def load_data():
     df = pd.read_csv(DATA, parse_dates=[DATE_COLUMN], delimiter=',')
     df[DATE_COLUMN] = df[DATE_COLUMN].dt.strftime('%Y')  # Преобразуем год к строковому формату, пробуем исправить ошибку при развертывании
