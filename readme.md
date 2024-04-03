@@ -1,30 +1,30 @@
-# Streamlit Demo
+# Streamlit демо
 
 Этот проект демонстрирует данные в виде веб-приложени] с использованием платформы [Streamlit](https://www.streamlit.io/). Данные, используемые в этом репозитории, представляют собой набор даных ["Качество бананов"](https://www.kaggle.com/datasets/l3llff/banana) и ["Производство бананов в мире"](https://www.kaggle.com/datasets/whenamancodes/banana-production-minion-loves-banana) c Kaggle.
 
 Попробуйте приложение [здесь]((https://first-project-salasvallejos.streamlit.app/))!
 
-## Files
+## Файлы
 
-- `1_🌎_map.py`: streamlit app file
-- `model.py`: script for generating the Random Forest classifier model
-- `titanic.csv` and `model_weights.mw`: data file and pre-trained model
-- `requirements.txt`: package requirements files
-- `Dockerfile` for docker deployment
+- `1_🌎_map.py` и `2_📉_correlation.py`: файлы приложения с потоковой подсветкой
+- `banana_quality.csv` и `banana-production.csv`: файлы данных
+- `requirements.txt`: файлы требований к пакету
+- `countries.geo.json`: содержит географические данные о странах в формате JSON
+- `Dockerfile` для развертывания докера
 
-## Run Demo Locally 
+## Запустить демонстрацию локально
 
-### Shell
+### Оболочка
 
-For directly run streamlit locally in the repo root folder as follows:
+Для прямого запуска streamlit локально в корневой папке репо следующим образом::
 
 ```shell
 $ python -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
-$ streamlit run app.py
+$ streamlit run 1_🌎_map.py
 ```
-Open http://localhost:8501 to view the app.
+Откройте http://localhost:8501 чтобы просмотреть приложение.
 
 ### Docker
 
