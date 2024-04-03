@@ -8,7 +8,7 @@
 
 - `1_🌎_map.py` и `2_📉_correlation.py`: файлы приложения с потоковой подсветкой
 - `banana_quality.csv` и `banana-production.csv`: файлы данных
-- `requirements.txt`: файлы требований к пакету
+- `requirements.txt`: файл требований к пакету
 - `countries.geo.json`: содержит географические данные о странах в формате JSON
 - `Dockerfile` для развертывания докера
 
@@ -28,18 +28,18 @@ $ streamlit run 1_🌎_map.py
 
 ### Docker
 
-For build and run the docker image named `st-demo`:
+Для сборки и запуска образа докера с именем `st-demo`:
 
 ```
 $ docker build -t st-demo .
 $ docker run -it --rm -p '8501:8501' st-demo
 ```
 
-`-it` keeps the terminal interactive
+`-it` сохраняет терминал интерактивным
 
-`--rm` removes the image once the command is stopped (e.g. using control + c)
+`--rm` удаляет изображение после остановки команды (например, с помощью control + c)
 
-Open http://localhost:8501/ to view the app.
+Откройте (http://localhost:8501/), чтобы просмотреть приложение.
 
 ## Облачное развертывание Streamlit
  
