@@ -2,7 +2,7 @@
 
 Этот проект демонстрирует данные в виде веб-приложени] с использованием платформы [Streamlit](https://www.streamlit.io/). Данные, используемые в этом репозитории, представляют собой набор даных ["Качество бананов"](https://www.kaggle.com/datasets/l3llff/banana) и ["Производство бананов в мире"](https://www.kaggle.com/datasets/whenamancodes/banana-production-minion-loves-banana) c Kaggle.
 
-Попробуйте приложение [здесь]((https://first-project-salasvallejos.streamlit.app/))!
+Попробуйте приложение [здесь](https://first-project-salasvallejos.streamlit.app/)!
 
 ## Файлы
 
