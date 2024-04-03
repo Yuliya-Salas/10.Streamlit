@@ -2,11 +2,11 @@
 
 Этот проект демонстрирует данные в виде веб-приложени] с использованием платформы [Streamlit](https://www.streamlit.io/). Данные, используемые в этом репозитории, представляют собой набор даных ["Качество бананов"](https://www.kaggle.com/datasets/l3llff/banana) и ["Производство бананов в мире"](https://www.kaggle.com/datasets/whenamancodes/banana-production-minion-loves-banana) c Kaggle.
 
-Try app [here](https://titanic.streamlit.app/)!
+Попробуйте приложение [здесь]((https://first-project-salasvallejos.streamlit.app/))!
 
 ## Files
 
-- `app.py`: streamlit app file
+- `1_🌎_map.py`: streamlit app file
 - `model.py`: script for generating the Random Forest classifier model
 - `titanic.csv` and `model_weights.mw`: data file and pre-trained model
 - `requirements.txt`: package requirements files
