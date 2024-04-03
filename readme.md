@@ -41,13 +41,11 @@ $ docker run -it --rm -p '8501:8501' st-demo
 
 Open http://localhost:8501/ to view the app.
 
-## Streamlit Cloud Deployment
+## Облачное развертывание Streamlit
  
-1. Put your app on GitHub (like this repo)
-Make sure it's in a public folder and that you have a `requirements.txt` file.
- 
-2. Sign into Streamlit Cloud
-Sign into share.streamlit.io with your GitHub email address, you need to have access to Streamlit Cloud service.
- 
-3. Deploy and share!  
-Click "New app", then fill in your repo, branch, and file path, choose a Python version (3.9 for this demo) and click "Deploy", then you should be able to see your app.
+1. Разместите свое приложение на GitHub (например, в этом репозитории). Убедитесь, что оно находится в общедоступной папке и что у вас есть файл requirements.txt.
+   
+2. Войдите в Streamlit Cloud. Войдите в Share.streamlit.io, указав свой адрес электронной почты GitHub. Вам потребуется доступ к сервису Streamlit Cloud.
+
+3. Разверните и поделитесь!
+Нажмите «Новое приложение», затем укажите репозиторий, ветку и путь к файлу, выберите версию Python (3.9 для этой демонстрации) и нажмите «Развернуть», после чего вы сможете увидеть свое приложение.
